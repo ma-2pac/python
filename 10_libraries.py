@@ -28,4 +28,4 @@ print(math.sin(math.pi/6))
 
 import helper
 
-help_me("now")
+helper.help_me("now")

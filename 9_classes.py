@@ -2,14 +2,18 @@
 # cat:
 
 class cat:
+    #assign the attirbutes for the cat object
   def __init__(self):
       self.size=40
       self.color="blue"
       self.breed="persian"
+
+    # meow is a method for the cat object
   def meow(self):
       print ("meow! I am a " + self.color + ", " + self.breed + " cat.")
 
-molly = cat()
+# instantiation
+molly = cat() 
 jesse = cat()
 
 print(molly.size)
